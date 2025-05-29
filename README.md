@@ -1,66 +1,123 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+# Exno.10-Prompt-Engg
+# Date : 20.5.25
+# Register no: 212222040091
+# Aim: To perform Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+# Algorithm: To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+# Report Generation using Query Decomposition + Semantic Filtering
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+Goal: Generate a report on "AI in Healthcare"
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+## Prompt (Query Decomposition + Semantic Filtering):
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+"Break the topic 'AI in Healthcare' into 4 key sections: Introduction, Applications, Benefits and Risks, and Future Trends. Write each section using formal academic tone and avoid generalizations."
+
+## Output Highlights:
+Clear structure with section headers
+
+Technical vocabulary used appropriately
+
+Relevant examples and use cases
+
+Avoided vague language due to semantic filter
+
+# Article using Role-based Prompting + Decision-Making
+Goal: Write a tech blog article on "The Rise of Edge Computing"
+
+## Prompt (Role-based + Decision-making):
+
+"You are a tech blogger writing for readers with intermediate knowledge in cloud systems. Start with a hook, then explain what edge computing is, compare it to cloud computing, and end with an opinionated insight."
+
+## Output Highlights:
+Engaging introduction (hook)
+
+Structured comparison section
+
+Used analogies for explanation
+
+Personal voice in conclusion (opinionated)
+
+# Case Study using Chain-of-Thought + Few-shot Prompting
+Goal: Case study on a hospital using AI for diagnosis
+
+## Prompt (Few-shot + CoT):
+
+Example case summary: "Hospital A implemented IBM Watson to improve cancer detection. It increased diagnostic accuracy by 25% in 6 months."
+Now, write a similar case study for a fictional hospital using AI in radiology. Explain:
+
+The problem
+
+The AI implementation
+
+Measured outcomes
+
+Lessons learned
+
+## Output Highlights:
+
+Logical, stepwise structure (CoT)
+
+Mimicked the format of the example (few-shot)
+
+Specific metrics and insights
+
+# Comic Book Story using Creative Prompting + Semantic Filtering
+
+Goal: A short comic strip about AI ethics
+
+## Prompt (Creative + Filtering):
+"Create a 4-panel comic script featuring a robot named 'AL-E' who learns about data privacy. Make it humorous but informative, and suitable for high school students."
+
+## Output Highlights:
+
+Used humor while embedding key ethical concepts
+
+Age-appropriate vocabulary and tone
+
+Clear visual scene prompts for each panel
+
+# Prompting Techniques Overview:
+
+![image](https://github.com/user-attachments/assets/d288f372-f639-465d-8d02-53082859c477)
+
+
+# Practical Content Creation Scenarios Using Prompt Patterns
+
+## A. Research Report Example
+Topic: "The Impact of AI on Education"
+Prompt Strategy: Query Decomposition + Semantic Filtering
+
+"Create a 4-part academic report: (1) Introduction to AI in education, (2) Key applications in classrooms, (3) Benefits and concerns, (4) Conclusion with future outlook. Use formal tone, suitable for university-level readers."
+
+## B. Tech Article Example
+Topic: "Edge Computing vs. Cloud Computing"
+Prompt Strategy: Role-based + Decision-making
+
+"Act as a tech blogger. Compare edge and cloud computing for enterprise use. Begin with a real-world example, make a comparison table, and recommend one for logistics companies."
+
+## C. Business Case Study Example
+Topic: "AI in Retail Inventory Management"
+Prompt Strategy: Chain-of-Thought + Few-shot
+
+"Write a structured case study:
+
+Problem: Overstocking and understocking
+
+AI Intervention: Predictive analytics
+
+Outcome: 15% inventory cost reduction
+Provide 1-2 similar examples in the conclusion."
+
+## D. Comic Book / Storytelling Example
+Topic: "AI Learns Empathy"
+Prompt Strategy: Creative Role-based Prompting + Age Filtering
+
+"Write a 6-panel comic script for middle schoolers about an AI robot named 'Eli' that learns empathy after misunderstanding human emotions. Make it humorous but educational."
+
+# Comparative Insights:
+
+![image](https://github.com/user-attachments/assets/0f079b0e-42d6-477e-8ce7-1708edf006df)
+
+
+# Result :  The corresponding prompt executed successfully.
